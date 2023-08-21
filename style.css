@@ -32,8 +32,11 @@ main{
  }
 
 footer{
-   
     height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
  
 }
 
@@ -57,3 +60,4 @@ footer{
     transform: translateX(-100%);
     text-align: end;
 }
+
