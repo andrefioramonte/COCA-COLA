@@ -25,13 +25,35 @@ header span{
 }
 
 main{
-    background-color: blue;
     flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+
+footer{
+   
+    height: 100px;
  
 }
 
-footer{
-    background-color: purple;
-    height: 100px;
- 
+.background-logo{
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content-text{
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    width: 240px;
+    transform: translateX(-100%);
+    text-align: end;
 }
