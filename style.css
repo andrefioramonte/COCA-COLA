@@ -34,9 +34,12 @@ main{
 footer{
     height: 100px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     padding-right: 75px;
+    padding-left: 75px;
+    color: #ffffff;
+    font-weight: 100;
  
 }
 
@@ -60,8 +63,12 @@ footer{
     transform: translateX(-100%);
     text-align: end;
 }
-
-.autoria{
-    color: #ffffff;
-    padding-left: 75px;
+.content-image{
+    height: 85vh;
 }
+
+footer div{
+    width: 64px;
+}
+
+
