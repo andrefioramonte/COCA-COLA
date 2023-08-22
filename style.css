@@ -58,7 +58,7 @@ footer{
 .content-text{
     position: absolute;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 2.5rem;
     width: 240px;
     transform: translateX(-100%);
     text-align: end;
@@ -71,4 +71,23 @@ footer div{
     width: 64px;
 }
 
+@media (max-width:768px){
+    header{
+        padding-left: 25px;
+    }
+    .content-text{
+        transform:translate(0%);
+        top: 80px;
+        font-size: 1.0rem;
+        width: 100px;
+        text-align: center;
+    }
+    .content-image{
+        height: 70vh;
+    }
+    
+    footer{
+        padding: 0px 25px;
+    }
 
+}
